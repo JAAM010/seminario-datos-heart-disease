@@ -19,10 +19,13 @@ ProyectoFinal/
 ├── Entregable1/
 │   ├── Entregable1_EDA_HeartDisease.ipynb     Notebook EDA + tratamiento
 │   └── Entregable1_Documento_APA.docx         Documento Word APA 7
-└── Entregable2/
-    ├── Entregable2_Modelado_HeartDisease.ipynb  Notebook PCA + modelos
-    ├── Entregable2_Documento_APA.docx           Documento Word APA 7
-    └── Presentacion_Sustentacion.pptx           Slides para la sustentacion
+├── Entregable2/
+│   ├── Entregable2_Modelado_HeartDisease.ipynb  Notebook PCA + modelos
+│   ├── Entregable2_Documento_APA.docx           Documento Word APA 7
+│   └── Presentacion_Sustentacion.pptx           Slides para la sustentacion
+└── Dashboard/                                  Valor agregado (no obligatorio)
+    ├── app.py                                  Dashboard interactivo con Streamlit
+    └── ejecutar.bat                            Script para iniciar el dashboard
 ```
 
 ## Resumen del proyecto
@@ -70,11 +73,28 @@ el UCI ML Repository y reconstruyen el preprocesamiento.
 ### Opcion 2 - Entorno local
 
 ```bash
-git clone https://github.com/<usuario>/<repo>.git
-cd <repo>
+git clone https://github.com/JAAM010/seminario-datos-heart-disease.git
+cd seminario-datos-heart-disease
 pip install -r requirements.txt
 jupyter notebook
 ```
+
+### Opcion 3 - Dashboard interactivo (valor agregado)
+
+El proyecto incluye un dashboard hecho en Streamlit que permite:
+- Explorar el dataset y los estadisticos
+- Ver los graficos del EDA con filtros
+- Comparar los modelos entrenados
+- **Hacer predicciones para un nuevo paciente** ajustando sus variables
+
+Para correrlo:
+
+```bash
+pip install streamlit
+streamlit run Dashboard/app.py
+```
+
+Se abre automaticamente en el navegador (http://localhost:8501).
 
 ## Tecnologias usadas
 
