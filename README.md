@@ -3,6 +3,12 @@
 Analisis exploratorio, tratamiento avanzado de datos y modelamiento supervisado
 sobre el dataset **Heart Disease (UCI Machine Learning Repository - Cleveland)**.
 
+## 🌐 Dashboard interactivo en linea
+
+**https://heart-disease-jaam010.streamlit.app**
+
+(Hospedado en Streamlit Community Cloud. Abre desde cualquier navegador.)
+
 ## Autor
 
 - **Jaime Alzate** - Programa de Desarrollo de Software, Noveno Semestre
@@ -87,7 +93,13 @@ El proyecto incluye un dashboard hecho en Streamlit que permite:
 - Comparar los modelos entrenados
 - **Hacer predicciones para un nuevo paciente** ajustando sus variables
 
-Para correrlo:
+#### Opcion 3.a - Version publica en linea (recomendada)
+
+Solo abrir la URL en cualquier navegador, no requiere instalar nada:
+
+**https://heart-disease-jaam010.streamlit.app**
+
+#### Opcion 3.b - Ejecutar localmente
 
 ```bash
 pip install streamlit
@@ -95,6 +107,9 @@ streamlit run Dashboard/app.py
 ```
 
 Se abre automaticamente en el navegador (http://localhost:8501).
+
+Ver `Dashboard/INSTRUCCIONES.md` para mas detalles sobre el deploy y como
+actualizar la app cuando se hagan cambios.
 
 ## Tecnologias usadas
 
