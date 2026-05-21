@@ -16,15 +16,16 @@ Por defecto las apps de Streamlit Cloud quedan privadas (requieren login).
 Para hacerla publica:
 
 1. Entra a https://share.streamlit.io
-2. Busca tu app `heart-disease-jaam010` en la lista
+2. Busca tu app en **"My apps"**
 3. Click en los tres puntos verticales ( ⋮ ) al lado de la app
 4. Click en **"Settings"**
-5. Ve a la pestaña **"Sharing"**
-6. En **"Who can view this app"** selecciona:
+5. Ve a la pestaña **"Sharing"** (panel izquierdo)
+6. En el dropdown **"Who can view this app"** selecciona:
    - `This app is public and searchable`  (PUBLICA)
    - NO selecciones `Only specific people can view this app` (eso es privada)
-7. Click en **"Save"**
-8. Espera 30 segundos y verifica abriendo la URL en modo incognito
+7. El cambio se aplica **AUTOMATICAMENTE** al seleccionar la opcion
+   (no hay boton Save, solo cierras el modal con la X)
+8. Espera 1-2 minutos y verifica abriendo la URL en modo incognito
 
 ---
 
