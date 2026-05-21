@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+
+# Datos intermedios
+*.csv
+data/
+figuras/
+
+# Permitir explicitamente artefactos finales
+!Entregable1/*.docx
+!Entregable1/*.ipynb
+!Entregable2/*.docx
+!Entregable2/*.ipynb
+!Entregable2/*.pptx
