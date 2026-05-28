@@ -97,7 +97,8 @@ st.markdown("""
 Dashboard del proyecto final del **Seminario de Ciencia de Datos**.
 Dataset: **Heart Disease (UCI Cleveland)** | 303 pacientes | 14 variables.
 
-Autor: Jaime Alzate | Desarrollo de Software – 9° semestre
+**Equipo:** Jaime Alberto Alzate Marulanda · Jhon Stiven Cortes Rivera · Juan David Leyton Ruiz · Pedro Manuel Mendoza Arias · Julián Rodas González
+**Asesor:** Wilson Andrés Ramírez Ríos — Institución Universitaria Pascual Bravo · Desarrollo de Software, 9° semestre (Mayo de 2026)
 """)
 
 # Cargar datos

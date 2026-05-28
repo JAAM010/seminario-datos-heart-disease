@@ -9,11 +9,19 @@ sobre el dataset **Heart Disease (UCI Machine Learning Repository - Cleveland)**
 
 (Hospedado en Streamlit Community Cloud. Abre desde cualquier navegador.)
 
-## Autor
+## Equipo
 
-- **Jaime Alzate** - Programa de Desarrollo de Software, Noveno Semestre
-- **Materia:** Seminario de Ciencia de los Datos
-- **Periodo:** Mayo 2026
+- Jaime Alberto Alzate Marulanda
+- Jhon Stiven Cortes Rivera
+- Juan David Leyton Ruiz
+- Pedro Manuel Mendoza Arias
+- Julián Rodas González
+
+**Asesor:** Wilson Andrés Ramírez Ríos
+**Institución:** Institución Universitaria Pascual Bravo — Facultad de Ingeniería
+**Programa:** Desarrollo de Software (Noveno Semestre)
+**Materia:** Seminario de Ciencia de los Datos
+**Periodo:** Mayo de 2026
 
 ## Estructura del repositorio
 
